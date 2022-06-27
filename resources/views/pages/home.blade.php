@@ -25,21 +25,21 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img
-                      src="/images/banner.jpg"
+                      src="/images/banners.jpg"
                       alt="Carousel image"
                       class="d-block w-100"
                     />
                   </div>
                   <div class="carousel-item">
                     <img
-                      src="/images/banner.jpg"
+                      src="/images/banners.jpg"
                       alt="Carousel image"
                       class="d-block w-100"
                     />
                   </div>
                   <div class="carousel-item">
                     <img
-                      src="/images/banner.jpg"
+                      src="/images/banners.jpg"
                       alt="Carousel image"
                       class="d-block w-100"
                     />

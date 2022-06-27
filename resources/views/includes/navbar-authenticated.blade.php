@@ -1,4 +1,4 @@
-  <nav
+  {{-- <nav
       class="
         navbar navbar-expand-lg navbar-light navbar-store
         fixed-top
@@ -42,10 +42,10 @@
                 data-toggle="dropdown"
               >
                 <img
-                  src="/images/icon-user.png"
+                  src="/images/user_pc.png"
                   alt="User"
                   class="rounded-circle mr-2 profile-picture"
-                />
+                />  
                 Hi, Elang
               </a>
               <div class="dropdown-menu">
@@ -75,4 +75,4 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> --}}

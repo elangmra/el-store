@@ -11340,7 +11340,7 @@ a.active {
 .component-categories {
   background: #f4f4f4;
   border-radius: 8px;
-  padding: 30px 30px 10px 30px;
+  padding: 25px 25px 10px 25px;
   margin-bottom: 20px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -11403,7 +11403,7 @@ a.active {
 .component-products .products-price {
   font-size: 16px;
   font-weight: 500;
-  color: #00abf4;
+  color: #f59500;
 }
 
 .store-breadcrumbs .breadcrumb {

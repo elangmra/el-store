@@ -34,7 +34,7 @@
                               <div class="form-group">
                                 <label for="">Product Name</label>
                                 <input
-                                  value="Sirup"
+                                  
                                   value="{{ $product->name }}"
                                   type="text"
                                   class="form-control"
@@ -45,7 +45,7 @@
                             <div class="col-md-6">
                               <div class="form-group">
                                 <label for="">Price</label>
-                                <input type="number" class="form-control" name="price" value="200" value="{{ $product->price}}" />
+                                <input type="number" class="form-control" name="price" value="{{ $product->price}}" />
                               </div>
                             </div>
 

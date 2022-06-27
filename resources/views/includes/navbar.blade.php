@@ -11,7 +11,7 @@
           <img src="/images/logo.svg" alt="" />
         </a>
         <form
-          class="searchbox"
+          class="searchbox d-none d-lg-flex"
           onsubmit="event.preventDefault();"
           role="search"
          >
@@ -42,7 +42,7 @@
               <a href="{{ route('categories') }}" class="nav-link {{ (request()->is('categories')) ? 'active' : '' }}">Categories</a>
             </li>
            
-
+            
             @guest
             <li class="nav-item">
               <a href="{{ route('register') }}" class="nav-link">Sign Up</a>
@@ -58,8 +58,10 @@
            
           </ul>
 
+           
           @auth
               <!-- Desktop Menu -->
+              
               <ul class="navbar-nav d-none d-lg-flex">
                 <li class="nav-item dropdown">
                   <a
@@ -70,7 +72,7 @@
                     data-toggle="dropdown"
                   >
                     <img
-                      src="/images/icon-user.png"
+                      src="/images/user_pc.png"
                       alt="User"
                       class="rounded-circle mr-2 profile-picture"
                     />

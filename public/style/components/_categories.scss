@@ -1,13 +1,15 @@
 .component-categories {
     background: #f4f4f4;
     border-radius: 8px;
-    padding: 30px 30px 10px 30px;
+    padding: 25px 25px 10px 25px;
     margin-bottom: 20px;
     transition: all 0.2s ease-in-out;
 
     &:hover {
         transform: scale(1.075);
         text-decoration: none;
+    }
+    .categories-image {
     }
 
     .categories-text {

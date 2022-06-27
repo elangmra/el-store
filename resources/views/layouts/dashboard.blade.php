@@ -72,6 +72,7 @@
         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none">
                       @csrf
         </form>
+        
         <!-- Page Content -->
         <div id="page-content-wrapper">
           <!-- Nav -->
@@ -106,7 +107,7 @@
                       data-toggle="dropdown"
                     >
                       <img
-                        src="/images/icon-user.png"
+                        src="/images/user_pc.png"
                         alt="User"
                         class="rounded-circle mr-2 profile-picture"
                       />

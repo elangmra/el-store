@@ -1,3 +1,4 @@
+ {{-- Navbar for Login Page --}}
  <nav
       class="
         navbar navbar-expand-lg navbar-light navbar-store
